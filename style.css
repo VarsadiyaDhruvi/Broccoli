@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "rajdhani";
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 80px 145px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.header a{
+    padding-right: 30px;
+    border-right: 3px solid #80B500;
+    color: black;
+    font-weight: 700;
+    font-family: "open sans";
+    margin-right: 60px;
+}
+.header .active{
+    color: #80B500;
+    font-weight: 700;
+    
+}
+.header .last{
+    border-right: none;
+}
+
+.sec_title{
+    padding-bottom: 30px;
+    font-size: 60px;
+    font-family: "rajdhani";
+    text-align: center;
+}
+.single_product{
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #e5e1e1;
+    width:calc(100%/4 - 30px);
+    /* height:350px; */
+    float: left;
+    background-color: #F8F8F8;
+    margin: 0px 15px  45px 15px;
+}
+.icon{
+    position:absolute;
+    top:200px;
+    left: 50px;
+    opacity: 0;
+    display: flex;
+}
+.single_product:hover .icon{
+    top: 150px;
+    transition: 0.3s;
+    opacity: 1;
+}
+ 
+.first:hover{
+    background-color: #80B500;
+    color:white;
+}
+.first{
+    
+    margin: 0px 5px;
+    height:50px ;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    border-radius: 50%;
+}
+
+.single_product:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 
+    0 8px 22px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+}
+
+button{
+    top: 20px;
+    left: 200px;
+    position: absolute;
+    background-color: #80B500;
+    border: none;
+    padding:5px 12px;
+    border-radius: 15px 0px 15px 0px;
+    color: white;
+}
+.content{
+    padding: 25px 30px 15px 30px;
+    background-color: white;
+   text-align: center;
+   font-weight: 700;
+   font-size: 13px;
+}
+.star{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+.star i{
+    color:#FEBC05;
+}
+.star span{
+    color: #80B500;
+    cursor: pointer;
+}
+.star i:hover{
+    transition: 0.3s;
+    color: #80B500;
+}
+.second_line{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px;
+    font-weight: 600;
+}
+.second_line:hover{
+    transition: 0.3s;
+    color: #80B500;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    color: #80B500;
+}
+s{
+    opacity: 0.5;
+    margin-left: 5px;
+}

@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px 50px;
+}
+section{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.detail{
+    padding: 0px 35px;
+}
+.star{
+    margin-bottom: 10px;
+}
+.star a{
+    text-align: center;
+    font-size: 13px;
+    color: #ffc107;
+}
+.star span{
+    color: #80B500;
+}
+img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+}
+.juices{
+    /* text-align: center; */
+    font-size:24px ;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #071c1f;
+    margin-bottom: 10px;
+    font-family: "rajdhani";
+}
+.price{
+    font-family: "open sans";
+    font-size: 50px;
+    color: #80B500;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e6ff;
+}
+.price s{
+    font-size: 40px;
+    color: #80B500;
+    opacity: 0.5;
+}
+.categories{
+    padding: 20px 0px;
+    border-bottom: 1px solid #e1e6ff;
+}
+strong{
+    padding-right: 20px;
+    font-family: "open sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+span a{
+    color: #071c1f;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "open sans";
+    padding: 0px 5px;
+}
+span a:hover{
+    transition: .3s;
+    color: #80B500;
+}
+.box{
+    display: flex;
+}
+.next{
+    display: flex;
+    padding: 20px 0px;
+}
+.dash{
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+    border-top: 1px solid #e1e6ff;
+    border-bottom: 1px solid #e1e6ff;
+    border-left: 1px solid #e1e6ff;
+}
+.two{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px solid #e1e6ff;
+}
+.plus{
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px;
+    border-top: 1px solid #e1e6ff;
+    border-bottom: 1px solid #e1e6ff;
+    border-right: 1px solid #e1e6ff;
+}
+.cart{
+    margin-left: 20px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #80B500;
+    font-size: 16px;
+    font-family: "rajdhani";
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cart i{
+    padding: 8px;
+}
+.fav{
+
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "open sans";
+}
+.fav:hover{
+    transition: .3s;
+    color: #80B500;
+}
+.fav i{
+    padding-right: 8px;
+}
+.icon{
+    border-bottom: 1px solid #e1e6ff;
+    display: flex;
+}
+.icons{
+    border-bottom: 1px solid #e1e6ff;
+    display: flex;
+    padding: 20px 0px;
+    
+}
+.ico i{
+    cursor: pointer;
+    padding: 8px;
+}
+.ico{
+    margin-left: 20px;
+}
+.share{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "open sans";
+}
+.ico i:hover{
+    color: #80B500;
+    transition: 0.3s;
+}
+
+.logos{
+    width: 100%;
+    padding: 20px 0px;
+}
+.line{
+    font-size:18px ;
+    font-family: "rajdhani";
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+.table{
+    border: 1px solid #e1e6ff;
+    /* background-color: aliceblue; */
+    padding: 35px 30px 40px 35px;
+    width: 400px;
+}
+.dot{
+    margin-top: 11px;
+    height: 4px;
+    width: 18px;
+    background-color: #80B500;
+    border-radius: 6px;
+}
+.dotd{
+    margin-top: 11px;
+    margin-left: 5px;
+    height:4px;
+    width: 4px;
+    background-color: #80B500;
+    border-radius: 50%;
+}
+.head{
+    display: flex;
+    margin-bottom: 10px;
+}
+.title{
+
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: "rajdhani";
+    font-weight: 700;
+    line-height: 1.3;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.images{
+    cursor: pointer;
+    height: 90px;
+    width: 90px;
+}
+.fisrt{
+    border-bottom: 1px solid #e1e6ff;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.stars i{
+    cursor: pointer;
+    color: #FFB800;
+    font-size: 13px;
+    padding-top: 8px;
+}
+.stars i:hover{
+    color: #80B500;
+    transition: .3s;
+}
+.text{
+    cursor: pointer;
+    padding-top: 10px;
+    font-family: "rajdhani";
+    font-size: 16px;
+    font-weight: 700;
+}
+.text:hover{
+    transition: .2s;
+    color: #80B500;
+}
+.prices{
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "open sans";
+    color: #80B500;
+}
+.prices s{
+    font-size: 11.2px;
+    opacity: 0.5;
+}
+.view{
+    border-bottom: none;
+}
+.i_mg{
+
+    height: 370px;
+    width: 370px;
+}
+.four{
+    margin-top: 20px;
+    display: flex;
+    height:85px ;
+    width: 85px;
+}
+.four img{
+    margin: 0px 5px;
+}
